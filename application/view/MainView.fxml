@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="800.0" maxWidth="800.0" minHeight="800.0" minWidth="800.0" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <VBox maxHeight="800.0" maxWidth="800.0" minHeight="800.0" minWidth="800.0" prefHeight="800.0" prefWidth="800.0">
+         <children>
+            <Label fx:id="title" alignment="CENTER" maxHeight="150.0" maxWidth="800.0" minHeight="150.0" minWidth="800.0" prefHeight="150.0" prefWidth="800.0" text="Label" textAlignment="CENTER" />
+            <Pane fx:id="pane" maxHeight="400.0" maxWidth="800.0" minHeight="400.0" minWidth="800.0" prefHeight="400.0" prefWidth="800.0" />
+            <VBox fx:id="visiting" alignment="CENTER" maxHeight="200.0" maxWidth="800.0" minHeight="200.0" minWidth="800.0" prefHeight="200.0" prefWidth="800.0" />
+            <Label fx:id="activity" alignment="CENTER" maxHeight="25.0" maxWidth="800.0" minHeight="25.0" minWidth="800.0" prefHeight="25.0" prefWidth="800.0" text="Label" textAlignment="CENTER" />
+            <Label fx:id="time" alignment="CENTER" maxHeight="25.0" maxWidth="800.0" minHeight="25.0" minWidth="800.0" prefHeight="25.0" prefWidth="800.0" text="Label" textAlignment="CENTER" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
